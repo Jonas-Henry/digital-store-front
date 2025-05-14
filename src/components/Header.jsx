@@ -5,29 +5,29 @@ import carrinho from "../assets/carrinho.png"
 const Header = () => {
     return ( 
         <header>
-        <div ClassName="topo">
-            <div ClassName="logo">
+        <div className="topo">
+            <div className="logo">
                 <img src={logo} alt="digital store logo"/>
                 DIGITAL STORE
             </div>
-            <div ClassName="buscador">
+            <div className="buscador">
                 <input type="text" placeholder="Pesquisar produto..."/>
                 <img src={lupa} alt="lupa buscador"/>
             </div>
-            <div ClassName="acoes">
+            <div className="acoes">
                 <a href="">Cadastre-se</a>
-                <a href="" ClassName="btn">Entrar</a>
-                <div ClassName="carrinho">
+                <a href="" className="btn">Entrar</a>
+                <div className="carrinho">
                     <img src={carrinho} alt="carrinho"/>
                     <span>2</span>
                 </div>
             </div>
         </div>
         <nav>
-            <a href="" ClassName="active">Home</a>
-            <a href="">Produtos</a>
-            <a href="">Categorias</a>
-            <a href="">Meus Pedidos</a>
+            <a href="/" className="active">Home</a>
+            <a href="/produtos">Produtos</a>
+            <a href="/categorias">Categorias</a>
+            <a href="/meus-pedidos">Meus Pedidos</a>
         </nav>
     </header>
      );

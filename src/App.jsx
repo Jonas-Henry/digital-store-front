@@ -1,11 +1,10 @@
-import Header from "./components/Header";
-
+import Paths from "./routes/Paths";
 
 const App = () => {
   return ( 
-    <>
-    <Header/>
-    </>
+   <>
+   <Paths/>
+   </>
    );
 }
  
